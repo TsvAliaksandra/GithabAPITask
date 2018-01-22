@@ -11,8 +11,17 @@ class MainPage extends React.Component {
     return (
       <div>
         <ul>
-          <li>Returns All Repositories under the facebook org</li>
-          <li>Returns the 100 most recent commits of react repositories</li>
+          <li>
+            <Link to="/repos">
+              Returns All Repositories under the facebook org
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/commits">
+              Returns the 100 most recent commits of react repositories
+            </Link>
+          </li>
         </ul>
       </div>
     );
