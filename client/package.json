@@ -2,7 +2,6 @@
   "name": "codeX-soft",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "webpack --watch --config ./webpack/webpack.dev.js",
     "build-prod": "webpack --config ./webpack/webpack.prod.js",
