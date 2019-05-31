@@ -1,4 +1,4 @@
-# GithabAPITask
+# GithubAPITask
 
 On the folder 'client' run `npm i`, after that `npm run start`
 
